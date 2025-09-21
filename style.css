@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gameBox{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0, 0,0.1);
+    font-size: 15vmin;
+    color:#331832;
+    background-color: aliceblue;
+}
+body{
+    background-color:#331832;
+    text-align: center;
+}
+.container{
+    height:70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gameButton{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.restart{
+    padding: 20px 20px 20px 20px;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgb(0, 0,0.1);
+    border: none;
+    font-size: 5vmin;
+    color:#331832;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#new-btn{
+    padding: 20px 20px 20px 20px;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgb(0, 0,0.1);
+    border: none;
+    font-size: 5vmin;
+    color:#331832;
+    font-family: 'Times New Roman', Times, serif;
+}
+#msg{
+    color: aliceblue;
+    font-size: 5vmin;
+
+}
+.msg-container{
+    height: 30vmin;
+}
+.hide{
+    display: none;
+}
