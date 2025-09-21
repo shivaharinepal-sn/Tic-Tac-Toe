@@ -51,10 +51,12 @@ body{
     font-size: 5vmin;
     color:#331832;
     font-family: 'Times New Roman', Times, serif;
+margin-top: 50px;
 }
 #msg{
     color: aliceblue;
     font-size: 5vmin;
+    margin-top: 20px;
 
 }
 .msg-container{
@@ -62,4 +64,7 @@ body{
 }
 .hide{
     display: none;
+}
+.main{
+    margin-top: 20px;
 }
